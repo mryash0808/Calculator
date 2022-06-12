@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@drawable/shape">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reccy"/>
+
+
+
+    <Button
+        android:id="@+id/cler"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="#BAB9B9"
+        android:text="Clear History"/>
+
+</LinearLayout>
